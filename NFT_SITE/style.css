@@ -1,0 +1,132 @@
+/* styles for the complete body section  */
+body {
+  font-size: 16px;
+  color: #2b283a;
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+}
+
+/* styles for the header part */
+header,
+.section-two {
+  background-color: #5f29a3;
+}
+
+/* styles for the the h1 elements */
+h1,
+h3 {
+  margin: 0;
+}
+h1 {
+  font-size: 36px;
+}
+/* styles for the h2 elements */
+h2 {
+  margin-top: 0;
+}
+
+/* styles for the h3 elements */
+
+h3 {
+  font-size: 20px;
+  color: #d0aaff;
+}
+
+/* styles for the main  image */
+
+/* styles for the section two images  */
+.imgs-container {
+  display: flex;
+  justify-content: space-between;
+}
+.img-class {
+  width: 300px;
+  border-radius: 4.6px;
+}
+
+/* styles for the anchor links  */
+
+a {
+  text-decoration: none;
+  border-bottom: 1px dotted;
+  color: #ef5839;
+}
+
+a:active,
+a:hover {
+  color: #d4b44c;
+}
+
+/* styles for all the container classes */
+.container {
+  width: 620px;
+  margin: 0 auto;
+}
+
+/* styles for the section parts */
+
+/* 
+Challenge:
+1. Increase the line-height of the 
+   paragraph text to 23px;
+*/
+.section-two p {
+  line-height: 23px;
+}
+
+.section-two,
+.main-image {
+  width: 100%;
+}
+
+footer,
+section,
+header {
+  padding: 45px 0;
+}
+/* styles for the footer section */
+footer {
+  text-align: center;
+  color: #5f29a3;
+}
+
+.section-two,
+h1 {
+  color: whitesmoke;
+}
+
+/* button styles starts here  */
+
+/* button styles ends here  */
+.about-btn {
+  color: #5f29a3;
+  background-color: whitesmoke;
+}
+.contact-btn {
+  color: #5f29a3;
+  background-color: whitesmoke;
+}
+
+.more-info-btn {
+  background-color: #f0e0ff;
+  color: #5f29a3;
+}
+
+.buy-btn {
+  background-color: #5f29a3;
+  color: whitesmoke;
+}
+
+.all-btn {
+  display: inline-block;
+  padding: 10px 19px;
+  border-radius: 4.6px;
+  font-weight: 500;
+  margin: 10px;
+}
+
+.all-btn:hover,
+.all-btn:active {
+  background-color: #f3e885;
+  color: #2b283a;
+}
